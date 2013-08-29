@@ -1,0 +1,79 @@
+<!--
+	PATH : Signup/view/signup/index/signup-form.phtml
+-->
+<?php /*var_dump($this->viewData); */?>
+<?php 
+	$formSignup = $this->formSignup;
+	$formSignup->prepare();
+	
+	$formSignup->setAttribute("id","__signup_form");
+	$formSignup->setAttribute("autocomplete","on");
+	$formSignup->setAttribute("class","signup_form");	
+?>
+
+<?php echo $this->form()->openTag($formSignup);  ?>
+
+	<label>First Name</label>
+	<?php  
+		$element = $formSignup->get("fn");
+		$element->setAttribute("placeholder","First Name");
+		
+		echo $this->formInput($element);
+	?>
+	<br/>
+	<label>Last Name</label>
+	<?php  
+		$element = $formSignup->get("ln");
+		$element->setAttribute("placeholder","Last Name");
+		
+		echo $this->formInput($element);
+	?>
+	<br/>
+    <lable>User Name</lable>
+    <?php
+        $element = $formSignup->get('un');
+        $element->setAttribute("placeholder", "User Name");
+
+        echo $this->formInput($element);
+    ?>
+    <br/>
+	<label>Email</label>
+	<?php  
+		$element = $formSignup->get("em");
+		$element->setAttribute("placeholder","Email");
+		
+		echo $this->formInput($element);
+	?>
+    <br/>
+	<label>Password</label>
+	<?php  
+		$element = $formSignup->get("pass");
+		$element->setAttribute("placeholder","Password");
+		
+		echo $this->formInput($element);
+	?>
+	<br/>
+	<label>Re-password</label>
+	<?php  
+		$element = $formSignup->get("repass");
+		$element->setAttribute("placeholder","Re-Enter Password");
+		
+		echo $this->formInput($element);
+	?>
+    <br/>
+
+    <label>Sex</label>
+    <?php
+        $element = $formSignup->get("sex");
+
+        //echo $this->formInput($element);
+        echo $this->formSelect()->render($element);
+    ?>
+
+	<?php  
+		$element = $formSignup->get("signup");
+		$element->setAttribute("value","Signup");
+		
+		echo $this->formInput($element);
+	?>
+<?php echo $this->form()->closeTag();  ?>

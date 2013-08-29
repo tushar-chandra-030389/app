@@ -1,0 +1,37 @@
+<!--  
+	PATH : Signin/view/signin/index/signin-form.phtml	
+-->
+VIEW : SIGNIN > INDEX > SIGNIN-FORM<br/>
+<?php 
+	$formSignin = $this->formSignin;
+	$formSignin->prepare();
+	
+	$formSignin->setAttribute("id","__signin_form");
+	$formSignin->setAttribute("autocomplete","on");
+	$formSignin->setAttribute("class","signin_form");	
+?>
+
+<?php echo $this->form()->openTag($formSignin);  ?>
+
+	<label>Email</label>
+	<?php  
+		$element = $formSignin->get("em");
+		$element->setAttribute("placeholder","Email");
+		
+		echo $this->formInput($element);
+	?>
+	<br/>
+	<label>Password</label>
+	<?php  
+		$element = $formSignin->get("pass");
+		$element->setAttribute("placeholder","Password");
+		
+		echo $this->formInput($element);
+	?>
+	<?php  
+		$element = $formSignin->get("signin");
+		$element->setAttribute("value","Signin");
+		
+		echo $this->formInput($element);
+	?>
+<?php echo $this->form()->closeTag();  ?>

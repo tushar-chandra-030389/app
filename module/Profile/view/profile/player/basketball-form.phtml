@@ -1,0 +1,47 @@
+Basketball Form
+<br/>
+<?php
+//var_dump($this->sportsname);
+?>
+<?php
+$Form = $this->basketballForm;
+$Form->prepare();
+
+$Form->setAttribute("id","__basketballform");
+$Form->setAttribute("autocomplete","on");
+$Form->setAttribute("class","_form");
+?>
+
+<?php echo $this->form()->openTag($Form);  ?>
+<?php
+$element = $Form->get("sportId");
+// /var_dump($element);exit;
+$element->setAttribute('value', "2");
+echo $this->formInput($element);
+ ?>
+<label>Sports Name</label>
+<?php
+$element = $Form->get("sn");
+$element->setAttribute("placeholder","Sports Name");
+$element->setAttribute("value","Basketball");
+$element->setAttribute("disabled","disabled");
+echo $this->formInput($element);
+?>
+<label>Format Type</label>
+<?php
+$element = $Form->get("format");
+$element->setAttribute("placeholder","Format");
+
+echo $this->formInput($element);
+?>
+<br/>
+<label>Position</label>
+<?php
+$element = $Form->get("ps1");
+$element->setAttribute("placeholder","Position 1");
+
+echo $this->formInput($element);
+?>
+<br/>
+<input type="submit"/>
+<?php echo $this->form()->closeTag();  ?>

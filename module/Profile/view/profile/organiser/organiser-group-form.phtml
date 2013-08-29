@@ -1,0 +1,53 @@
+<?php
+	$Form = $this->groupForm;
+	
+	$Form->prepare();
+	
+	$Form->setAttribute("id","__organiser_group_form");
+	$Form->setAttribute("autocomplete","on");
+	$Form->setAttribute("class","organiser_form");
+?>
+
+<?php echo $this->form()->openTag($Form);  ?>
+
+<?php
+    $element = $Form->get("type");
+    echo $this->formInput()->render($element);
+?>
+<label>Name</label>
+<?php
+    $element = $Form->get("name");
+    echo $this->formInput()->render($element);
+?>
+<label>Contact Number</label>
+<?php
+    $element = $Form->get("cn");
+    echo $this->formInput()->render($element);
+?>
+<label>Email</label>
+<?php
+    $element = $Form->get("em");
+    echo $this->formInput()->render($element);
+?>
+<label>Address</label>
+<?php
+    $element = $Form->get("address");
+    echo $this->formTextarea()->render($element);
+?>
+
+<?php
+    $element = $Form->get("lat");
+    echo $this->formInput()->render($element);
+?>
+
+<?php
+    $element = $Form->get("lon");
+    echo $this->formInput()->render($element);
+?>
+	<?php  
+		$element = $Form->get("create");
+		$element->setAttribute("value","Create");
+		
+		echo $this->formInput($element);
+	?>
+<?php echo $this->form()->closeTag();  ?>

@@ -1,0 +1,21 @@
+sports form
+
+<?php 
+	$sportsForm = $this->sportsForm;
+	//var_dump($this->sportsForm);exit;
+	$sportsForm->prepare();
+	
+	$sportsForm->setAttribute("id","__signup_form");
+	$sportsForm->setAttribute("autocomplete","on");
+	$sportsForm->setAttribute("class","signup_form");
+?>
+
+<?php echo $this->form()->openTag($sportsForm);  ?>
+    <label>Sports Name</label>
+    <?php
+        $element = $sportsForm->get("sn");
+        echo $this->formSelect()->render($element);
+    ?>
+
+    <input type="submit"/>
+<?php echo $this->form()->closeTag();  ?>

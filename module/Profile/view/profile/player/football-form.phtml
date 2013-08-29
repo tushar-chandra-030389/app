@@ -1,0 +1,56 @@
+Football Form
+<br/>
+<?php
+//var_dump($this->sportsname);
+?>
+<?php
+$footballForm = $this->footballForm;
+$footballForm->prepare();
+
+$footballForm->setAttribute("id","__football_form");
+$footballForm->setAttribute("autocomplete","on");
+$footballForm->setAttribute("class","football_form");
+?>
+
+<?php echo $this->form()->openTag($footballForm);  ?>
+
+<label>Sports Name</label>
+<?php
+$element = $footballForm->get("sn");
+$element->setAttribute("placeholder","Sports Name");
+$element->setAttribute("value","Football");
+$element->setAttribute("disabled","disabled");
+echo $this->formInput($element);
+?>
+<br/>
+<?php
+$element = $footballForm->get("sportId");
+$element->setAttribute('value', "1");
+echo $this->formInput($element);
+ ?>
+<label>Stroger Foot</label>
+<?php
+$element = $footballForm->get("foot");
+$element->setAttribute("placeholder","Stronger Foot");
+
+echo $this->formInput($element);
+?>
+<br/>
+<label>Format Type</label>
+<?php
+$element = $footballForm->get("format");
+$element->setAttribute("placeholder","Format");
+
+echo $this->formInput($element);
+?>
+<br/>
+<label>Position</label>
+<?php
+$element = $footballForm->get("ps1");
+$element->setAttribute("placeholder","Position 1");
+
+echo $this->formInput($element);
+?>
+<br/>
+<input type="submit"/>
+<?php echo $this->form()->closeTag();  ?>

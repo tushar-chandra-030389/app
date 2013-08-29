@@ -1,0 +1,41 @@
+<?php
+
+namespace Profile\Form\Filter;
+
+use Zend\InputFilter\Factory AS InputFilterFactory;
+use Zend\Validator\NotEmpty;
+use Zend\Validator\Regex;
+use Zend\Validator\InArray;
+
+class SportsForm {
+    public $inputFilter;
+
+    public function __construct() {
+        $factory = new InputFilterFactory();
+        $this->inputFilter = $factory->createInputFilter($this->_getConfig());
+    }
+
+    private function _getConfig() {
+        return array(
+            array(
+                'name' => 'sn', //Sports Name
+                'required' => true,
+                'filters' => array(
+                    array('name' => 'StripTags'),
+                    array('name' => 'StringTrim'),
+                ),
+                'validators' => array(
+                    array(
+                        'name' => 'InArray',
+                        'options' => array(
+                            'haystack' => array("Football","Basketball"),
+                            'message' => array(
+                                InArray::NOT_IN_ARRAY => 'Invalid !!!'
+                            )
+                        )
+                    )
+                ),
+            ),
+        );
+    }
+}

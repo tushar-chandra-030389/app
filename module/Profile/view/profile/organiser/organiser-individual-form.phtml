@@ -1,0 +1,23 @@
+<?php
+	$Form = $this->individualForm;
+	
+	$Form->prepare();
+	
+	$Form->setAttribute("id","__organiser_individual_form");
+	$Form->setAttribute("autocomplete","on");
+	$Form->setAttribute("class","organiser_form");
+?>
+
+<?php echo $this->form()->openTag($Form);  ?>
+
+<?php
+    $element = $Form->get("type");
+    echo $this->formInput()->render($element);
+?>
+<?php  
+	$element = $Form->get("create");
+	$element->setAttribute("value","Create");
+	
+	echo $this->formInput($element);
+?>
+<?php echo $this->form()->closeTag();  ?>

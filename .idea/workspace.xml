@@ -1,0 +1,638 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ad3e4271-0cc2-46ff-8dda-83e4899e9f59" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/ZendDeveloperTools/view/zend-developer-tools/assets/icons/glyphish-icons/small/162-receipt.png" afterPath="$PROJECT_DIR$/vendor/ZendDeveloperTools/view/zend-developer-tools/assets/icons/glyphish-icons/small/162-receipt.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/ZendDeveloperTools/view/zend-developer-tools/assets/icons/glyphish-icons/small/18-envelope.png" afterPath="$PROJECT_DIR$/vendor/ZendDeveloperTools/view/zend-developer-tools/assets/icons/glyphish-icons/small/18-envelope.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/ZendDeveloperTools/view/zend-developer-tools/assets/icons/glyphish-icons/small/184-warning.png" afterPath="$PROJECT_DIR$/vendor/ZendDeveloperTools/view/zend-developer-tools/assets/icons/glyphish-icons/small/184-warning.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/ZendDeveloperTools/view/zend-developer-tools/assets/icons/glyphish-icons/small/20-gear2.png" afterPath="$PROJECT_DIR$/vendor/ZendDeveloperTools/view/zend-developer-tools/assets/icons/glyphish-icons/small/20-gear2.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/ZendDeveloperTools/view/zend-developer-tools/assets/icons/glyphish-icons/small/33-cabinet.png" afterPath="$PROJECT_DIR$/vendor/ZendDeveloperTools/view/zend-developer-tools/assets/icons/glyphish-icons/small/33-cabinet.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/ZendDeveloperTools/view/zend-developer-tools/assets/icons/glyphish-icons/small/78-stopwatch.png" afterPath="$PROJECT_DIR$/vendor/ZendDeveloperTools/view/zend-developer-tools/assets/icons/glyphish-icons/small/78-stopwatch.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/ZendDeveloperTools" afterPath="$PROJECT_DIR$/vendor/ZendDeveloperTools" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/ZendDeveloperTools/view/zend-developer-tools/assets/icons/wireframe-mono/small/db.png" afterPath="$PROJECT_DIR$/vendor/ZendDeveloperTools/view/zend-developer-tools/assets/icons/wireframe-mono/small/db.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/ZendDeveloperTools/.gitignore" afterPath="$PROJECT_DIR$/vendor/ZendDeveloperTools/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/ZendDeveloperTools/src/ZendDeveloperTools/Collector/AbstractCollector.php" afterPath="$PROJECT_DIR$/vendor/ZendDeveloperTools/src/ZendDeveloperTools/Collector/AbstractCollector.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/ZendDeveloperTools/src/ZendDeveloperTools/Collector/AutoHideInterface.php" afterPath="$PROJECT_DIR$/vendor/ZendDeveloperTools/src/ZendDeveloperTools/Collector/AutoHideInterface.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/ZendDeveloperTools/src/ZendDeveloperTools/Stub/ClosureStub.php" afterPath="$PROJECT_DIR$/vendor/ZendDeveloperTools/src/ZendDeveloperTools/Stub/ClosureStub.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/ZendDeveloperTools/src/ZendDeveloperTools/Exception/CollectorException.php" afterPath="$PROJECT_DIR$/vendor/ZendDeveloperTools/src/ZendDeveloperTools/Exception/CollectorException.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/ZendDeveloperTools/src/ZendDeveloperTools/Collector/CollectorInterface.php" afterPath="$PROJECT_DIR$/vendor/ZendDeveloperTools/src/ZendDeveloperTools/Collector/CollectorInterface.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/ZendDeveloperTools/src/ZendDeveloperTools/Collector/ConfigCollector.php" afterPath="$PROJECT_DIR$/vendor/ZendDeveloperTools/src/ZendDeveloperTools/Collector/ConfigCollector.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/ZendDeveloperTools/src/ZendDeveloperTools/Collector/DbCollector.php" afterPath="$PROJECT_DIR$/vendor/ZendDeveloperTools/src/ZendDeveloperTools/Collector/DbCollector.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/ZendDeveloperTools/src/ZendDeveloperTools/View/Helper/DetailArray.php" afterPath="$PROJECT_DIR$/vendor/ZendDeveloperTools/src/ZendDeveloperTools/View/Helper/DetailArray.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/ZendDeveloperTools/src/ZendDeveloperTools/Controller/DeveloperToolsController.php" afterPath="$PROJECT_DIR$/vendor/ZendDeveloperTools/src/ZendDeveloperTools/Controller/DeveloperToolsController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/ZendDeveloperTools/src/ZendDeveloperTools/Collector/EventCollector.php" afterPath="$PROJECT_DIR$/vendor/ZendDeveloperTools/src/ZendDeveloperTools/Collector/EventCollector.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/ZendDeveloperTools/src/ZendDeveloperTools/Collector/EventCollectorInterface.php" afterPath="$PROJECT_DIR$/vendor/ZendDeveloperTools/src/ZendDeveloperTools/Collector/EventCollectorInterface.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/ZendDeveloperTools/src/ZendDeveloperTools/Collector/ExceptionCollector.php" afterPath="$PROJECT_DIR$/vendor/ZendDeveloperTools/src/ZendDeveloperTools/Collector/ExceptionCollector.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/ZendDeveloperTools/src/ZendDeveloperTools/Exception/ExceptionInterface.php" afterPath="$PROJECT_DIR$/vendor/ZendDeveloperTools/src/ZendDeveloperTools/Exception/ExceptionInterface.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/ZendDeveloperTools/src/ZendDeveloperTools/Listener/FirePhpListener.php" afterPath="$PROJECT_DIR$/vendor/ZendDeveloperTools/src/ZendDeveloperTools/Listener/FirePhpListener.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/ZendDeveloperTools/src/ZendDeveloperTools/Listener/FlushListener.php" afterPath="$PROJECT_DIR$/vendor/ZendDeveloperTools/src/ZendDeveloperTools/Listener/FlushListener.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/Dashboard/src/Dashboard/Controller/IndexController.php" afterPath="$PROJECT_DIR$/module/Dashboard/src/Dashboard/Controller/IndexController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/ZendDeveloperTools/src/ZendDeveloperTools/Exception/InvalidOptionException.php" afterPath="$PROJECT_DIR$/vendor/ZendDeveloperTools/src/ZendDeveloperTools/Exception/InvalidOptionException.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/ZendDeveloperTools/LICENSE.txt" afterPath="$PROJECT_DIR$/vendor/ZendDeveloperTools/LICENSE.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/ZendDeveloperTools/view/zend-developer-tools/assets/icons/glyphish-icons/LICENSE.txt" afterPath="$PROJECT_DIR$/vendor/ZendDeveloperTools/view/zend-developer-tools/assets/icons/glyphish-icons/LICENSE.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/ZendDeveloperTools/view/zend-developer-tools/assets/icons/wireframe-mono/LICENSE.txt" afterPath="$PROJECT_DIR$/vendor/ZendDeveloperTools/view/zend-developer-tools/assets/icons/wireframe-mono/LICENSE.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/ZendDeveloperTools/src/ZendDeveloperTools/Collector/MailCollector.php" afterPath="$PROJECT_DIR$/vendor/ZendDeveloperTools/src/ZendDeveloperTools/Collector/MailCollector.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/ZendDeveloperTools/src/ZendDeveloperTools/Match/MatchInterface.php" afterPath="$PROJECT_DIR$/vendor/ZendDeveloperTools/src/ZendDeveloperTools/Match/MatchInterface.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/ZendDeveloperTools/src/ZendDeveloperTools/View/Helper/Memory.php" afterPath="$PROJECT_DIR$/vendor/ZendDeveloperTools/src/ZendDeveloperTools/View/Helper/Memory.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/ZendDeveloperTools/src/ZendDeveloperTools/Collector/MemoryCollector.php" afterPath="$PROJECT_DIR$/vendor/ZendDeveloperTools/src/ZendDeveloperTools/Collector/MemoryCollector.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/ZendDeveloperTools/Module.php" afterPath="$PROJECT_DIR$/vendor/ZendDeveloperTools/Module.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/ZendDeveloperTools/src/ZendDeveloperTools/Options.php" afterPath="$PROJECT_DIR$/vendor/ZendDeveloperTools/src/ZendDeveloperTools/Options.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/ZendDeveloperTools/src/ZendDeveloperTools/Exception/ParameterMissingException.php" afterPath="$PROJECT_DIR$/vendor/ZendDeveloperTools/src/ZendDeveloperTools/Exception/ParameterMissingException.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/ZendDeveloperTools/src/ZendDeveloperTools/Profiler.php" afterPath="$PROJECT_DIR$/vendor/ZendDeveloperTools/src/ZendDeveloperTools/Profiler.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/ZendDeveloperTools/src/ZendDeveloperTools/ProfilerEvent.php" afterPath="$PROJECT_DIR$/vendor/ZendDeveloperTools/src/ZendDeveloperTools/ProfilerEvent.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/ZendDeveloperTools/src/ZendDeveloperTools/Exception/ProfilerException.php" afterPath="$PROJECT_DIR$/vendor/ZendDeveloperTools/src/ZendDeveloperTools/Exception/ProfilerException.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/ZendDeveloperTools/src/ZendDeveloperTools/Listener/ProfilerListener.php" afterPath="$PROJECT_DIR$/vendor/ZendDeveloperTools/src/ZendDeveloperTools/Listener/ProfilerListener.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/ZendDeveloperTools/README-DEV.md" afterPath="$PROJECT_DIR$/vendor/ZendDeveloperTools/README-DEV.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/ZendDeveloperTools/README.md" afterPath="$PROJECT_DIR$/vendor/ZendDeveloperTools/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/ZendDeveloperTools/src/ZendDeveloperTools/Report.php" afterPath="$PROJECT_DIR$/vendor/ZendDeveloperTools/src/ZendDeveloperTools/Report.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/ZendDeveloperTools/src/ZendDeveloperTools/ReportInterface.php" afterPath="$PROJECT_DIR$/vendor/ZendDeveloperTools/src/ZendDeveloperTools/ReportInterface.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/ZendDeveloperTools/src/ZendDeveloperTools/Collector/RequestCollector.php" afterPath="$PROJECT_DIR$/vendor/ZendDeveloperTools/src/ZendDeveloperTools/Collector/RequestCollector.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/ZendDeveloperTools/src/ZendDeveloperTools/Exception/SerializableException.php" afterPath="$PROJECT_DIR$/vendor/ZendDeveloperTools/src/ZendDeveloperTools/Exception/SerializableException.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/ZendDeveloperTools/src/ZendDeveloperTools/Storage/StorageInterface.php" afterPath="$PROJECT_DIR$/vendor/ZendDeveloperTools/src/ZendDeveloperTools/Storage/StorageInterface.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/ZendDeveloperTools/src/ZendDeveloperTools/Listener/StorageListener.php" afterPath="$PROJECT_DIR$/vendor/ZendDeveloperTools/src/ZendDeveloperTools/Listener/StorageListener.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/ZendDeveloperTools/src/ZendDeveloperTools/View/Helper/Time.php" afterPath="$PROJECT_DIR$/vendor/ZendDeveloperTools/src/ZendDeveloperTools/View/Helper/Time.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/ZendDeveloperTools/src/ZendDeveloperTools/Collector/TimeCollector.php" afterPath="$PROJECT_DIR$/vendor/ZendDeveloperTools/src/ZendDeveloperTools/Collector/TimeCollector.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/ZendDeveloperTools/src/ZendDeveloperTools/Listener/ToolbarListener.php" afterPath="$PROJECT_DIR$/vendor/ZendDeveloperTools/src/ZendDeveloperTools/Listener/ToolbarListener.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/ZendDeveloperTools/composer.json" afterPath="$PROJECT_DIR$/vendor/ZendDeveloperTools/composer.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/ZendDeveloperTools/view/zend-developer-tools/toolbar/config.phtml" afterPath="$PROJECT_DIR$/vendor/ZendDeveloperTools/view/zend-developer-tools/toolbar/config.phtml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/ZendDeveloperTools/view/zend-developer-tools/toolbar/db.phtml" afterPath="$PROJECT_DIR$/vendor/ZendDeveloperTools/view/zend-developer-tools/toolbar/db.phtml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/ZendDeveloperTools/view/zend-developer-tools/toolbar/error.phtml" afterPath="$PROJECT_DIR$/vendor/ZendDeveloperTools/view/zend-developer-tools/toolbar/error.phtml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/ZendDeveloperTools/view/zend-developer-tools/toolbar/mail.phtml" afterPath="$PROJECT_DIR$/vendor/ZendDeveloperTools/view/zend-developer-tools/toolbar/mail.phtml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/ZendDeveloperTools/view/zend-developer-tools/toolbar/memory.phtml" afterPath="$PROJECT_DIR$/vendor/ZendDeveloperTools/view/zend-developer-tools/toolbar/memory.phtml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/ZendDeveloperTools/config/module.config.php" afterPath="$PROJECT_DIR$/vendor/ZendDeveloperTools/config/module.config.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/ZendDeveloperTools/view/zend-developer-tools/toolbar/request.phtml" afterPath="$PROJECT_DIR$/vendor/ZendDeveloperTools/view/zend-developer-tools/toolbar/request.phtml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/ZendDeveloperTools/view/zend-developer-tools/toolbar/style.phtml" afterPath="$PROJECT_DIR$/vendor/ZendDeveloperTools/view/zend-developer-tools/toolbar/style.phtml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/ZendDeveloperTools/view/zend-developer-tools/toolbar/time.phtml" afterPath="$PROJECT_DIR$/vendor/ZendDeveloperTools/view/zend-developer-tools/toolbar/time.phtml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/ZendDeveloperTools/view/zend-developer-tools/toolbar/toolbar.css" afterPath="$PROJECT_DIR$/vendor/ZendDeveloperTools/view/zend-developer-tools/toolbar/toolbar.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/ZendDeveloperTools/view/zend-developer-tools/toolbar/toolbar.phtml" afterPath="$PROJECT_DIR$/vendor/ZendDeveloperTools/view/zend-developer-tools/toolbar/toolbar.phtml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/ZendDeveloperTools/config/zenddevelopertools.local.php.dist" afterPath="$PROJECT_DIR$/vendor/ZendDeveloperTools/config/zenddevelopertools.local.php.dist" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/ZendDeveloperTools/view/zend-developer-tools/toolbar/zendframework.phtml" afterPath="$PROJECT_DIR$/vendor/ZendDeveloperTools/view/zend-developer-tools/toolbar/zendframework.phtml" />
+    </list>
+    <ignored path="wiplash.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <file path="/.htaccess" changelist="ad3e4271-0cc2-46ff-8dda-83e4899e9f59" time="1376131763457" ignored="false" />
+    <file path="/IndexController.php" changelist="ad3e4271-0cc2-46ff-8dda-83e4899e9f59" time="1377780774039" ignored="false" />
+    <file path="/User.php" changelist="ad3e4271-0cc2-46ff-8dda-83e4899e9f59" time="1376373032524" ignored="false" />
+    <file path="/module.view.config.php" changelist="ad3e4271-0cc2-46ff-8dda-83e4899e9f59" time="1376373496771" ignored="false" />
+    <file path="/index.phtml" changelist="ad3e4271-0cc2-46ff-8dda-83e4899e9f59" time="1377587800451" ignored="false" />
+    <file path="/gettext.php" changelist="ad3e4271-0cc2-46ff-8dda-83e4899e9f59" time="1376373972360" ignored="false" />
+    <file path="/global.php" changelist="ad3e4271-0cc2-46ff-8dda-83e4899e9f59" time="1376379413146" ignored="false" />
+    <file path="/Module.php" changelist="ad3e4271-0cc2-46ff-8dda-83e4899e9f59" time="1377769814756" ignored="false" />
+    <file path="/SignupForm.php" changelist="ad3e4271-0cc2-46ff-8dda-83e4899e9f59" time="1376723564745" ignored="false" />
+    <file path="/a.dummy" changelist="ad3e4271-0cc2-46ff-8dda-83e4899e9f59" time="1376646665885" ignored="false" />
+    <file path="/signup-form.phtml" changelist="ad3e4271-0cc2-46ff-8dda-83e4899e9f59" time="1376721809697" ignored="false" />
+    <file path="/Signup.php" changelist="ad3e4271-0cc2-46ff-8dda-83e4899e9f59" time="1376931905386" ignored="false" />
+    <file path="/UserTable.php" changelist="ad3e4271-0cc2-46ff-8dda-83e4899e9f59" time="1376722179979" ignored="false" />
+    <file path="/PlayerController.php" changelist="ad3e4271-0cc2-46ff-8dda-83e4899e9f59" time="1377087963716" ignored="false" />
+    <file path="/CreatePlayerProfileForm.php" changelist="ad3e4271-0cc2-46ff-8dda-83e4899e9f59" time="1376998077738" ignored="false" />
+    <file path="/football-form.phtml" changelist="ad3e4271-0cc2-46ff-8dda-83e4899e9f59" time="1376998267569" ignored="false" />
+    <file path="/FootballForm.php" changelist="ad3e4271-0cc2-46ff-8dda-83e4899e9f59" time="1376998808032" ignored="false" />
+    <file path="/service.config.php" changelist="ad3e4271-0cc2-46ff-8dda-83e4899e9f59" time="1376999307956" ignored="false" />
+    <file path="/module.route.config.php" changelist="ad3e4271-0cc2-46ff-8dda-83e4899e9f59" time="1376999517774" ignored="false" />
+    <file path="/create.phtml" changelist="ad3e4271-0cc2-46ff-8dda-83e4899e9f59" time="1377088329184" ignored="false" />
+    <file path="/SportsForm.php" changelist="ad3e4271-0cc2-46ff-8dda-83e4899e9f59" time="1377019201682" ignored="false" />
+    <file path="/sports-form.phtml" changelist="ad3e4271-0cc2-46ff-8dda-83e4899e9f59" time="1377088089953" ignored="false" />
+    <file path="/HomeController.php" changelist="ad3e4271-0cc2-46ff-8dda-83e4899e9f59" time="1377587719618" ignored="false" />
+    <file path="/Dummy.txt" changelist="ad3e4271-0cc2-46ff-8dda-83e4899e9f59" time="1377781111019" ignored="false" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="wiplash" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="index.phtml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/module/Application/view/home/index.phtml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="3" column="2" selection-start="66" selection-end="66" vertical-scroll-proportion="-0.7692308">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IndexController.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/module/Dashboard/src/Dashboard/Controller/IndexController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="14" column="58" selection-start="275" selection-end="275" vertical-scroll-proportion="0.010989011">
+              <folding>
+                <element signature="e#6#79#0" expanded="true" />
+                <element signature="e#115#164#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="layout.phtml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/module/Application/view/layout/layout.phtml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="1" column="29" selection-start="30" selection-end="30" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="false" />
+    </FindUsagesManager>
+  </component>
+  <component name="Git.Settings">
+    <option name="SYNC_SETTING" value="SYNC" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitLogSettings">
+    <option name="myStructureFilterPaths" />
+    <option name="myDateState">
+      <MyDateState />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="changedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/module/Application/config/module.route.config.php" />
+        <option value="$PROJECT_DIR$/module/Application/view/about/index.phtml" />
+        <option value="$PROJECT_DIR$/module/Profile/src/Profile/Controller/Helpers/Player.php" />
+        <option value="$PROJECT_DIR$/module/Application/src/Application/Controller/HomeController.php" />
+        <option value="$PROJECT_DIR$/module/Event/Module.php" />
+        <option value="$PROJECT_DIR$/module/Event/view/event/index/index.phtml" />
+        <option value="$PROJECT_DIR$/module/Event/view/layout/layout.phtml" />
+        <option value="$PROJECT_DIR$/module/Event/config/module.config.php" />
+        <option value="$PROJECT_DIR$/module/Event/config/module.route.config.php" />
+        <option value="$PROJECT_DIR$/module/Event/config/module.view.config.php" />
+        <option value="$PROJECT_DIR$/module/Event/config/service.config.php" />
+        <option value="$PROJECT_DIR$/module/Event/src/Event/Controller/IndexController.php" />
+        <option value="$PROJECT_DIR$/module/Signup/view/signup/index/signup-form.phtml" />
+        <option value="$PROJECT_DIR$/module/Application/view/layout/layout.phtml" />
+        <option value="$PROJECT_DIR$/module/Application/view/home/index.phtml" />
+        <option value="$PROJECT_DIR$/module/Dashboard/src/Dashboard/Controller/IndexController.php" />
+      </list>
+    </option>
+  </component>
+  <component name="PhpServers">
+    <option name="servers">
+      <server host="sites.local/app/public" name="sites.local" use_path_mappings="true">
+        <path_mappings>
+          <path_mapping local_path="$PROJECT_DIR$/public/index.php" remote_path="$PROJECT_DIR$/public/index.php" />
+        </path_mappings>
+      </server>
+    </option>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="php">
+    <include_path>
+      <path value="." />
+      <path value="/usr/share/php" />
+      <path value="/usr/share/pear" />
+    </include_path>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-3" />
+    <option name="width" value="1372" />
+    <option name="height" value="745" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents ProjectPane="true" />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="module" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="module" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Dashboard" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="module" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Dashboard" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Dashboard" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="module" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Dashboard" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Dashboard" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Controller" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="options.lastSelected" value="reference.settingsdialog.IDE.editor.colors.Font" />
+    <property name="recentsLimit" value="5" />
+    <property name="restartRequiresConfirmation" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
+    <property name="GoToClass.includeJavaFiles" value="false" />
+  </component>
+  <component name="PublishConfig">
+    <servers>
+      <server id="82dc4684-e1f0-4279-bfc1-fb81930f8722">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" />
+          </mappings>
+        </serverdata>
+      </server>
+      <server id="85c13c22-af78-4099-b04c-b5998b4e1607">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" />
+          </mappings>
+        </serverdata>
+      </server>
+      <server id="bb8ebfae-6d8f-4c7d-9cd4-7fd08c020d73">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" />
+          </mappings>
+        </serverdata>
+      </server>
+    </servers>
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/module/Profile/view/profile/player" />
+    </key>
+  </component>
+  <component name="RunManager" selected="PHP Web Application.LMSapp">
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpWebAppRunConfigurationType" factoryName="PHP Web Application" server_name="sites.local">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
+      <method />
+    </configuration>
+    <configuration default="false" name="LMSapp" type="PhpWebAppRunConfigurationType" factoryName="PHP Web Application" browser="FIREFOX" server_name="sites.local">
+      <RunnerSettings RunnerId="PhpRunner" />
+      <RunnerSettings RunnerId="PhpWebAppDebugRunner" />
+      <ConfigurationWrapper RunnerId="PhpRunner" />
+      <ConfigurationWrapper RunnerId="PhpWebAppDebugRunner" />
+      <method />
+    </configuration>
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="PHP Web Application.LMSapp" />
+    </list>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false" SSL_PROTOCOLS="all">
+    <option name="USER" value="" />
+    <option name="PASSWORD" value="" />
+    <option name="mySSHConnectionTimeout" value="30000" />
+    <option name="mySSHReadTimeout" value="30000" />
+    <option name="LAST_MERGED_REVISION" />
+    <option name="MERGE_DRY_RUN" value="false" />
+    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
+    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
+    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
+    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
+    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
+    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
+    <option name="FORCE_UPDATE" value="false" />
+    <option name="IGNORE_EXTERNALS" value="false" />
+    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ad3e4271-0cc2-46ff-8dda-83e4899e9f59" name="Default" comment="" />
+      <created>1376131691853</created>
+      <updated>1376131691853</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TodoView" selected-index="1">
+    <todo-panel id="selected-file">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+    <todo-panel id="default-changelist">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-3" y="0" width="1372" height="745" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.9232053" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32888147" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22575757" sideWeight="0.076794654" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39865997" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.21917808" sideWeight="0.5008375" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32998326" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32888147" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" x="100" y="100" width="1166" height="543" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32888147" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="true" />
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="CHECK_NEW_TODO" value="true" />
+    <option name="myTodoPanelSettings">
+      <value>
+        <are-packages-shown value="false" />
+        <are-modules-shown value="false" />
+        <flatten-packages value="false" />
+        <is-autoscroll-to-source value="false" />
+      </value>
+    </option>
+    <option name="PERFORM_UPDATE_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_COMMIT_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_EDIT_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_CHECKOUT_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_ADD_REMOVE_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_ROLLBACK_IN_BACKGROUND" value="false" />
+    <option name="CHECK_LOCALLY_CHANGED_CONFLICTS_IN_BACKGROUND" value="false" />
+    <option name="CHANGED_ON_SERVER_INTERVAL" value="60" />
+    <option name="SHOW_ONLY_CHANGED_IN_SELECTION_DIFF" value="true" />
+    <option name="CHECK_COMMIT_MESSAGE_SPELLING" value="true" />
+    <option name="DEFAULT_PATCH_EXTENSION" value="patch" />
+    <option name="SHORT_DIFF_HORIZONTALLY" value="true" />
+    <option name="SHORT_DIFF_EXTRA_LINES" value="2" />
+    <option name="SOFT_WRAPS_IN_SHORT_DIFF" value="true" />
+    <option name="INCLUDE_TEXT_INTO_PATCH" value="false" />
+    <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
+    <option name="SHOW_FILE_HISTORY_DETAILS" value="true" />
+    <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="false" />
+    <option name="SHOW_DIRTY_RECURSIVELY" value="false" />
+    <option name="LIMIT_HISTORY" value="true" />
+    <option name="MAXIMUM_HISTORY_ROWS" value="1000" />
+    <option name="UPDATE_FILTER_SCOPE_NAME" />
+    <option name="USE_COMMIT_MESSAGE_MARGIN" value="false" />
+    <option name="COMMIT_MESSAGE_MARGIN_SIZE" value="72" />
+    <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
+    <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
+    <option name="LAST_COMMIT_MESSAGE" />
+    <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="REFORMAT_BEFORE_FILE_COMMIT" value="false" />
+    <option name="FILE_HISTORY_DIALOG_COMMENTS_SPLITTER_PROPORTION" value="0.8" />
+    <option name="FILE_HISTORY_DIALOG_SPLITTER_PROPORTION" value="0.5" />
+    <option name="ACTIVE_VCS_NAME" />
+    <option name="UPDATE_GROUP_BY_PACKAGES" value="false" />
+    <option name="UPDATE_GROUP_BY_CHANGELIST" value="false" />
+    <option name="UPDATE_FILTER_BY_SCOPE" value="false" />
+    <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
+    <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/module/Event/config/service.config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="26" selection-start="44" selection-end="44" vertical-scroll-proportion="0.10989011" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module/Event/src/Event/Controller/IndexController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="23" selection-start="305" selection-end="305" vertical-scroll-proportion="0.47619048" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module/Event/config/module.route.config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="41" selection-start="210" selection-end="215" vertical-scroll-proportion="0.2930403" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module/Application/src/Application/Controller/IndexController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="2" selection-start="8" selection-end="8" vertical-scroll-proportion="0.03663004" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module/Application/src/Application/Controller/HomeController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="4" selection-start="46" selection-end="46" vertical-scroll-proportion="-0.18315019" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module/Signup/view/signup/index/signup-form.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="4" selection-start="450" selection-end="450" vertical-scroll-proportion="0.6593407" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module/Signup/src/Signup/Controller/IndexController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.8791209" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/application.config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/autoload/local.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/autoload/global.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module/Application/config/module.view.config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="31" selection-start="498" selection-end="504" vertical-scroll-proportion="0.43956044" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module/Application/view/layout/layout.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="29" selection-start="30" selection-end="30" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module/Application/view/home/index.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="2" selection-start="66" selection-end="66" vertical-scroll-proportion="-0.7692308">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/ZendDeveloperTools/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module/Dashboard/src/Dashboard/Controller/IndexController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="58" selection-start="275" selection-end="275" vertical-scroll-proportion="0.010989011">
+          <folding>
+            <element signature="e#6#79#0" expanded="true" />
+            <element signature="e#115#164#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
+
