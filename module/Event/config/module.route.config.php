@@ -12,6 +12,24 @@ return array(
                         'action'        => 'index',
                     ),
                 ),
+                'may_terminate' => true,
+                'child_routes' => array(
+                    'create' => array(
+                        'type'    => 'Segment',
+                        'options' => array(
+                            'route'    => '/create',
+                            'constraints' => array(
+                                'controller' => '[a-zA-Z][a-zA-Z0-9_-]*',
+                                'action'     => '[a-zA-Z][a-zA-Z0-9_-]*',
+                            ),
+                            'defaults' => array(
+                                'controller'    => 'Event\Controller\Index',
+                                'action'        => 'create',
+                            ),
+                        ),
+                    ),
+
+                ),
             )
         )
     )

@@ -10,7 +10,13 @@ use Application\Controller\Helpers\MessageConstants AS MC;
 
 class IndexController extends AbstractActionController
 {
-	public function indexAction() {
+	public function indexAction()
+    {
 		echo " In Event Home Page";
 	}
+
+    public function createAction()
+    {
+        echo "Create Event. A Single or A Group of Events";
+    }
 }

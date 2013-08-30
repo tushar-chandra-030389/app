@@ -17,7 +17,7 @@ class Module {
         $sharedEvents->attach(__NAMESPACE__, 'dispatch', function($e) {
             // This event will only be fired when an ActionController under the MyModule namespace is dispatched.
             $controller = $e->getTarget();
-            $controller->layout('profile/layout');
+            $controller->layout('event/layout');
         }, 100);
     }  
 	

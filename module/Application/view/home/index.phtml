@@ -1,4 +1,39 @@
-<?php
- echo $this->viewSigninForm;
- echo $this->viewSignupForm;
-?>
+<header>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-5">
+                <div class="lms-logo">
+                    <a href="/" class="lms-logo-link">
+                        LinkMySport
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-7">
+                <div class="lms-login">
+                    <?php
+                    echo $this->viewSigninForm;
+                    ?>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<section>
+    <div class="middle-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="lms-msg text-center">
+                        Hello This is the Message.
+                    </div>
+                </div>
+                <div class="col-md-6 tex">
+                    <div class="lms-register text-center">
+                        <?php echo $this->viewSignupForm;?>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
