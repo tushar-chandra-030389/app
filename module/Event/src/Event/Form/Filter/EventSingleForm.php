@@ -1,16 +1,12 @@
 <?php
-/*
 
- * PATH : Signin/src/Signin/Form/Filters/SigninForm.php
-
-*/
-namespace Profile\Form\Filter;
+namespace Event\Form\Filter;
 
 use Zend\InputFilter\Factory AS InputFilterFactory;
 use Zend\Validator\NotEmpty;
 use Zend\Validator\Regex;
 
-class FootballForm {
+class EventSingleForm {
     public $inputFilter;
 
     public function __construct() {
@@ -21,7 +17,49 @@ class FootballForm {
     private function _getConfig() {
         return array(
             array(
-                'name' => 'sn',
+                'name' => 'type',
+                'required' => true,
+                'filters' => array(
+                    array('name' => 'StripTags'),
+                    array('name' => 'StringTrim'),
+                ),
+                'validators' => array(
+                    array(
+                        'name' => 'Regex',
+                        'options' => array(
+                            'pattern' => '/^S$/i',
+                            'message' => array(
+                                Regex::INVALID => 'Invalid !!!',
+                                Regex::NOT_MATCH => '',
+                                Regex::ERROROUS => ''
+                            )
+                        )
+                    )
+                )
+            ),
+            array(
+                'name' => 'groupId',
+                'required' => true,
+                'filters' => array(
+                    array('name' => 'StripTags'),
+                    array('name' => 'StringTrim'),
+                ),
+                'validators' => array(
+                    array(
+                        'name' => 'Regex',
+                        'options' => array(
+                            'pattern' => '/^[0-9]$/i',
+                            'message' => array(
+                                Regex::INVALID => 'Invalid !!!',
+                                Regex::NOT_MATCH => '',
+                                Regex::ERROROUS => ''
+                            )
+                        )
+                    )
+                )
+            ),
+            array(
+                'name' => 'name',
                 'required' => true,
                 'filters' => array(
                     array('name' => 'StripTags'),
@@ -42,7 +80,7 @@ class FootballForm {
                 )
             ),
             array(
-                'name' => 'foot',
+                'name' => 'gender',
                 'required' => true,
                 'filters' => array(
                     array('name' => 'StripTags'),
@@ -63,7 +101,7 @@ class FootballForm {
                 )
             ),
             array(
-                'name' => 'format',
+                'name' => 'sport',
                 'required' => true,
                 'filters' => array(
                     array('name' => 'StripTags'),
@@ -84,7 +122,7 @@ class FootballForm {
                 )
             ),
             array(
-                'name' => 'ps1',
+                'name' => 'sd',
                 'required' => true,
                 'filters' => array(
                     array('name' => 'StripTags'),
@@ -105,7 +143,7 @@ class FootballForm {
                 )
             ),
             array(
-                'name' => 'sportId',
+                'name' => 'ef',
                 'required' => true,
                 'filters' => array(
                     array('name' => 'StripTags'),
@@ -115,7 +153,7 @@ class FootballForm {
                     array(
                         'name' => 'Regex',
                         'options' => array(
-                            'pattern' => '/^1$/i',
+                            'pattern' => '/^.*$/i',
                             'message' => array(
                                 Regex::INVALID => 'Invalid !!!',
                                 Regex::NOT_MATCH => '',
@@ -124,7 +162,28 @@ class FootballForm {
                         )
                     )
                 )
-            )
+            ),
+            array(
+                'name' => 'location',
+                'required' => true,
+                'filters' => array(
+                    array('name' => 'StripTags'),
+                    array('name' => 'StringTrim'),
+                ),
+                'validators' => array(
+                    array(
+                        'name' => 'Regex',
+                        'options' => array(
+                            'pattern' => '/^.*$/i',
+                            'message' => array(
+                                Regex::INVALID => 'Invalid !!!',
+                                Regex::NOT_MATCH => '',
+                                Regex::ERROROUS => ''
+                            )
+                        )
+                    )
+                )
+            ),
         );
     }
 }

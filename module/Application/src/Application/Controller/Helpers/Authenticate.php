@@ -49,7 +49,6 @@ class Authenticate  implements  ServiceLocatorAwareInterface {
     		$container->offsetSet('fn',$details->first_name);
     		$container->offsetSet('ln',$details->last_name);
     		$container->offsetSet('em',$details->email);
-    		$container->offsetSet('ty',$details->type);
     		$container->offsetSet('st',$details->status);
     		$container->offsetSet('token',$container->getManager()->getId());
 

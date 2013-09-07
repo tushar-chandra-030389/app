@@ -1,4 +1,4 @@
-<header>
+<header id="header">
     <div class="container">
         <div class="row">
             <div class="col-md-5">
@@ -11,7 +11,7 @@
             <div class="col-md-7">
                 <div class="lms-login">
                     <?php
-                    echo $this->viewSigninForm;
+                        echo $this->viewSigninForm;
                     ?>
                 </div>
             </div>
@@ -28,9 +28,11 @@
                         Hello This is the Message.
                     </div>
                 </div>
-                <div class="col-md-6 tex">
+                <div class="col-md-6">
                     <div class="lms-register text-center">
-                        <?php echo $this->viewSignupForm;?>
+                        <?php
+                            echo $this->viewSignupForm;
+                        ?>
                     </div>
                 </div>
             </div>

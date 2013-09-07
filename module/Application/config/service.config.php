@@ -19,6 +19,8 @@ return array(
             'Mapper:Football' => 'Application\Model\Mapper\Football',
             'Mapper:Basketball' => 'Application\Model\Mapper\Basketball',
             'Mapper:Organiser'  =>  'Application\Model\Mapper\Organiser',
+            'Mapper:Event'  =>  'Application\Model\Mapper\Event',
+            'Mapper:EventGroup'   =>    'Application\Model\Mapper\EventGroup'
         ),
         'factories' => array(
         	'Zend\Session\SessionManager' => function ($sm) {
@@ -85,6 +87,14 @@ return array(
                 },
                 'Model:OrganiserTable' =>  function($sm) {
                     $table = new Application\Model\OrganiserTable($sm->get('GetAdapter'));
+                    return $table;
+                },
+                'Model:EventTable' =>  function($sm) {
+                    $table = new Application\Model\EventTable($sm->get('GetAdapter'));
+                    return $table;
+                },
+                'Model:EventGroupTable' =>  function($sm) {
+                    $table = new Application\Model\EventGroupTable($sm->get('GetAdapter'));
                     return $table;
                 },
                 'GetAdapter' => function ($sm) {

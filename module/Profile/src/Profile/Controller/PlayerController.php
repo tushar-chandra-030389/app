@@ -31,8 +31,6 @@ class PlayerController extends AbstractActionController
         $basketballForm = $this->getServiceLocator()->get('Profile\Form\BasketballForm');
         $basketballForm->form->setAttribute('action', $this->url()->fromRoute('profile_rest'));
 
-
-
         $view = new ViewModel(array()); 
         $view->setTemplate('profile/player/create');
         

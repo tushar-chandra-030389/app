@@ -30,7 +30,31 @@ return array(
                     ),
 
                 ),
-            )
+            ),
+            'event-rest' => array(
+                'type'    => 'segment',
+                'options' => array(
+                    'route'    => '/event',
+                    'constraints' => array(
+                        /*'sportId' => '[0-9]*]'*/
+                    ),
+                    'defaults' => array(
+                        'controller'    => 'Event\Controller\CreateRest'
+                    ),
+                )
+            ),
+            'event-multiple' => array(
+                'type'    => 'segment',
+                'options' => array(
+                    'route'    => '/eventgroup',
+                    'constraints' => array(
+                        /*'sportId' => '[0-9]*]'*/
+                    ),
+                    'defaults' => array(
+                        'controller'    => 'Event\Controller\CreateGroupRest'
+                    ),
+                )
+            ),
         )
     )
 );

@@ -116,7 +116,7 @@ class Player implements  ServiceLocatorAwareInterface{
 		} elseif ($data['sportId'] === "2") {
 			$UserSportsMapper->basketball = "1";
 			$UserSportsMapper->status = "103";
-		} elseif ()
+		}
 		
 		/*$UserSportsMapper->status = ""
 		var_dump($result);

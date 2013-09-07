@@ -1,0 +1,46 @@
+<?php
+$Form = $this->eventMultipleForm;
+
+$Form->prepare();
+
+$Form->setAttribute("id","__event-single-form");
+$Form->setAttribute("autocomplete","on");
+$Form->setAttribute("class","event-single-form");
+?>
+
+<?php echo $this->form()->openTag($Form);  ?>
+
+<?php
+$element = $Form->get("type");
+echo $this->formInput()->render($element);
+?>
+
+    <label for="eventName">Name</label>
+<?php
+$element = $Form->get("name");
+echo $this->formInput()->render($element);
+?>
+    <label for="eventMultiCN">Contact Number</label>
+<?php
+$element = $Form->get("cn");
+echo $this->formInput()->render($element);
+?>
+
+    <label for="eventMultiEM">Email Add</label>
+<?php
+$element = $Form->get("em");
+echo $this->formInput()->render($element);
+?>
+    <label for="eventMultiLoc">Venue</label>
+<?php
+$element = $Form->get("venue");
+echo $this->formInput()->render($element);
+?>
+
+<?php
+$element = $Form->get("create");
+$element->setAttribute("value","Multiple Event");
+
+echo $this->formInput($element);
+?>
+<?php echo $this->form()->closeTag();  ?>

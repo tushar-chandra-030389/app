@@ -17,6 +17,23 @@ class IndexController extends AbstractActionController
 
     public function createAction()
     {
-        echo "Create Event. A Single or A Group of Events";
+        $eventSingleForm = $this->getServiceLocator()->get('Event\Form\EventSingleForm');
+        $eventSingleForm->form->setAttribute('action',$this->url()->fromRoute('event-rest'));
+
+        $eventMultipleForm = $this->getServiceLocator()->get('Event\Form\EventMultipleForm');
+        $eventMultipleForm->form->setAttribute('action', $this->url()->fromRoute('event-multiple'));
+
+        $view = new ViewModel(array());
+        $view->setTemplate('event/index/create');
+            $viewEventSingleForm = new ViewModel(array('eventSingleForm' => $eventSingleForm->form, 'groupId' => "0"));
+            $viewEventSingleForm->setTemplate('event/forms/single');
+
+            $viewEventMultipleForm = new ViewModel(array('eventMultipleForm' => $eventMultipleForm->form,
+                'groupId'  => "1"));
+            $viewEventMultipleForm->setTemplate('event/forms/multiple');
+
+        $view->addChild($viewEventSingleForm, 'viewEventSingleForm');
+        $view->addChild($viewEventMultipleForm, 'viewEventMultipleForm');
+        return $view;
     }
 }

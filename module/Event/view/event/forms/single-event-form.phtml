@@ -1,0 +1,60 @@
+<?php
+$Form = $this->eventSingleForm;
+$groupId = $this->groupId;
+//var_dump($groupId);exit;
+$Form->prepare();
+
+$Form->setAttribute("id","__event-single-form");
+$Form->setAttribute("autocomplete","on");
+$Form->setAttribute("class","event-single-form");
+?>
+
+<?php echo $this->form()->openTag($Form);  ?>
+
+<?php
+$element = $Form->get("type");
+echo $this->formInput()->render($element);
+?>
+<?php 
+$element = $Form->get("groupId");
+$element->setAttribute("value", $groupId);
+echo $this->formInput($element);
+?>
+    <label for="eventName">Name</label>
+<?php
+$element = $Form->get("name");
+echo $this->formInput()->render($element);
+?>
+    <label for="eventSports">Gender</label>
+<?php
+$element = $Form->get("gender");
+echo $this->formInput()->render($element);
+?>
+    <label for="eventSports">Sports</label>
+<?php
+$element = $Form->get("sport");
+echo $this->formInput()->render($element);
+?>
+
+    <label for="eventStart">Starting Date</label>
+<?php
+$element = $Form->get("sd");
+echo $this->formInput()->render($element);
+?>
+    <label for="eventFees">Per Team Fees</label>
+<?php
+$element = $Form->get("ef");
+echo $this->formInput()->render($element);
+?>
+    <label for="eventLocation">Location Mention City</label>
+<?php
+$element = $Form->get("location");
+echo $this->formInput()->render($element);
+?>
+<?php
+$element = $Form->get("create");
+$element->setAttribute("value","Single Event");
+
+echo $this->formInput($element);
+?>
+<?php echo $this->form()->closeTag();  ?>
