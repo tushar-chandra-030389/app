@@ -50,7 +50,7 @@ class FootballTable{
                     $table = 'user';
                     break;
             }
-            $select->join(array($value => $table), $on, $joinMapper->getArrayCopy(TRUE, $value));
+            $select->join(array($value => $table), $on, $joinMapper->getArrayCopy(TRUE,$value));
         }
         //echo $this->sql->getSqlStringForSqlObject($select);exit;
         try{

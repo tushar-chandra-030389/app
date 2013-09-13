@@ -1,10 +1,8 @@
 <?php
     $profileDetails = $this->profileDetails;
-    $footballProfile = $this->footballProfile;
-    var_dump($footballProfile);
-    var_dump($profileDetails);
+    $footballProfile = json_decode($this->footballProfile, true);
 ?>
-<?php if($profileFootball === FALSE){ echo "You dont have a football profile yet.";exit;} else { ?>
+<?php echo $footballProfile['id']; ?>
 <div class="row">
     <div class="container">
         <div class="col-md-4">
@@ -74,4 +72,3 @@
         </div>
     </div>
 </div>
-<?php } ?>
