@@ -56,7 +56,7 @@ class PlayerController extends AbstractActionController
 
         $footballProfile = $helperDetails->profileFootball($this->getServiceLocator()->get('Authenticate')->getSession('id'));
         $view = new ViewModel(array("profileDetails" => json_encode($profileDetails),
-                                    "profileFootball" => json_encode($footballProfile)
+                                    "footballProfile" => json_encode($footballProfile)
                                     ));
         $view->setTemplate('profile/player/football');
 

@@ -44,11 +44,11 @@ class Profile  implements  ServiceLocatorAwareInterface
         $userTable = $this->services->get('Model:UserTable');
         $footballTable = $this->services->get('Model:FootballTable');
         $result = $footballTable->getUserFootballProfile($userId);
-        /*//var_dump($result);exit;
-        if($result === NULL) {
+        //var_dump($result);exit;
+        if($result === FALSE) {
             return FALSE;
         } else {
             return $result->current();
-        }*/
+        }
     }
 }

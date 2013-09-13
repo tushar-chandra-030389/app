@@ -50,12 +50,12 @@ class FootballTable{
                     $table = 'user';
                     break;
             }
-            $select->join(array($value => $table), $on, $joinMapper->getArrayCopy(TRUE, $value), $select::JOIN_OUTER);
+            $select->join(array($value => $table), $on, $joinMapper->getArrayCopy(TRUE, $value));
         }
-        echo $this->sql->getSqlStringForSqlObject($select);exit;
+        //echo $this->sql->getSqlStringForSqlObject($select);exit;
         try{
             $result = $this->adapter->query($this->sql->getSqlStringForSqlObject($select),Adapter::QUERY_MODE_EXECUTE);
-            $result->setArrayObjectPrototype($mapper);
+            $result->setArrayObjectPrototype($footballMapper);
             if($result->count() != 0){
                 return $result;
             }
@@ -66,6 +66,6 @@ class FootballTable{
     }
 
     public function getUserFootballProfile($userId) {
-        return $this->getFootballProfile("fb.uid = '".$userId."'");
+        return $this->getFootballProfile("fb.uid = '".$userId."'", array('user'));
     }
 }
