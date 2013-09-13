@@ -1,0 +1,36 @@
+<?php
+$formSignin = $this->formSignin;
+$formSignin->prepare();
+
+$formSignin->setAttribute("id","__signin_form");
+$formSignin->setAttribute("autocomplete","on");
+$formSignin->setAttribute("class","signin_form form-inline");
+?>
+
+<?php echo $this->form()->openTag($formSignin);  ?>
+    <div class="form-group">
+        <?php
+            $element = $formSignin->get("em");
+            $element->setAttribute("class", "form-control signin-input" );
+            $element->setAttribute("placeholder","Enter Email or Username");
+
+            echo $this->formInput($element);
+        ?>
+    </div>
+    <div class="form-group">
+        <?php
+            $element = $formSignin->get("pass");
+            $element->setAttribute("class", "form-control signin-input" );
+            $element->setAttribute("placeholder","Password");
+
+            echo $this->formInput($element);
+        ?>
+    </div>
+<?php
+$element = $formSignin->get("signin");
+$element->setAttribute("class", "btn btns btn-signin");
+$element->setAttribute("value","Sign In");
+
+echo $this->formInput($element);
+?>
+<?php echo $this->form()->closeTag();  ?>

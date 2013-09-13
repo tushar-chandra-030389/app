@@ -28,7 +28,7 @@ class SportsForm {
                     array(
                         'name' => 'InArray',
                         'options' => array(
-                            'haystack' => array("Football","Basketball"),
+                            'haystack' => array("F","B"),
                             'message' => array(
                                 InArray::NOT_IN_ARRAY => 'Invalid !!!'
                             )

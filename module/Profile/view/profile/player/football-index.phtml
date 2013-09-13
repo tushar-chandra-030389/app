@@ -1,0 +1,77 @@
+<?php
+    $profileDetails = $this->profileDetails;
+    $profileFootball = $this->profileFootball;
+    var_dump($profileFootball);
+    var_dump($profileDetails);
+?>
+<?php if($profileFootball === FALSE){ echo "You dont have a football profile yet.";exit;} else { ?>
+<div class="row">
+    <div class="container">
+        <div class="col-md-4">
+            <div class="side-nav">
+                <div class="profile-card">
+                    <div class="card">
+                        <div class="profile-img">
+                        </div>
+                        <div class="profile-details">
+                            <span class="age"></span>
+                            <span class="height"></span>
+                            <span class="weight"></span>
+                        </div>
+                    </div>
+                    <div class="switch">
+                        <div class="sports">
+                            <ul class="sports-list">
+                                <li class="active sports-list-name">
+                                    <span class="sports-img"></span>
+                                </li>
+                                <li class="sports-list-name">
+                                    <span class="sports-img"></span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="side-nav">
+                <div class="team-list"></div>
+            </div>
+            <div class="side-nav">
+                <div class="event-list"></div>
+            </div>
+        </div>
+        <div class="col-md-8">
+            <div class="main-nav">
+                <div class="profile-info">
+                    <div class="profile-desc"></div>
+                    <div class="sports-info"></div>
+                </div>
+            </div>
+            <div class="main-nav">
+                <ul class="nav nav-tabs">
+                    <li><a href="#activity" data-toggle="tab">Recent Activity</a></li>
+                    <li><a href="#stats" data-toggle="tab">Personal Statistics</a></li>
+                </ul>
+                <div class="tab-content">
+                    <div class="tab-pane active" id="activity">
+                        <ul class="feed">
+                            <li class="feed-list-counter-0">
+                                <div class="feed-box">
+                                    <div class="feed-profile-img"></div>
+                                    <div class="feed-content"></div>
+                                </div>
+                            </li>
+                            <li class="feed-list-counter-1">
+                                <div class="feed-profile-img"></div>
+                                <div class="feed-content"></div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="tab-pane" id="stats"></div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+<?php } ?>

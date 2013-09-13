@@ -65,18 +65,5 @@ class User extends MapperFunctions {
         return $data;
     }
 
-	public function __set($name, $value) {
-    	list($alias, $column) = explode('_', $name);
-    	switch ($alias) {
-    		
-    	}
-    }
-
-    public function __get($name) {
-    	list($alias, $column) = explode('_', $name);
-    	switch ($alias) {
-    		
-    	}
-    }
 
 }

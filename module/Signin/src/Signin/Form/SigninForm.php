@@ -23,7 +23,7 @@ class SigninForm {
 			'elements' => array(
 		        array(
 		            'spec' => array(
-		            	'type'	=> 'Zend\Form\Element\Text',
+		            	'type'	=> 'Zend\Form\Element\Email',
 		                'name' => 'em', //---Email
 		                'options' => array(),
 		                'attributes' => array(),

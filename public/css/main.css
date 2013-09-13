@@ -1,5 +1,140 @@
 /* Application Landing Page */
 
+.wrapper {
+    height: auto !important;
+    min-height: 100%;
+    overflow: hidden;
+}
+.footer {
+    position:fixed;
+    left:0px;
+    bottom:0px;
+    height:50px;
+    width:100%;
+    background-color: #222222;
+}
+.background-img {
+    position: fixed;
+    top: -50%;
+    left: -50%;
+    width: 200%;
+    height: 200%;
+    z-index: -100;
+}
+.background-img img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    min-width: 50%;
+    min-height: 50%;
+}
+.btns {
+    background: #a5b8da;
+    background: -webkit-linear-gradient(top, #2a537d, #224a73);
+    background: -moz-linear-gradient(top, #2a537d, #224a73);
+    background: -ms-linear-gradient(top, #2a537d, #224a73);
+    background: -o-linear-gradient(top, #2a537d, #224a73);
+    background: linear-gradient(to bottom, #2a537d, #224a73);
+    filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#2a537d, endColorstr=#224a73);
+    color:#FFFFFF;
+    padding: 0px;
+}
+/* Header */
+#header {
+    position: relative;
+    width: 100%;
+    min-height: 40px;
+    background-color: #252525;
+    background-position: 0 0;
+}
+.lms-logo-link {
+    background: url("../img/logo/lms-logo.png") no-repeat scroll center center transparent;
+    display: block;
+    height: 40px;
+    margin: 0 auto;
+    text-indent: -9999px;
+    width: 60%;
+}
+ /* Sign In */
+.signin_form {
+    margin: 0 auto;
+    width: 100%;
+    padding-top: 7px;
+}
+/*input box 117x19*/
+.signin-input, .signup-input {
+    height: 27px;
+    padding: 2px;
+    width: 172px;
+}
+.btn-signin {
+    height: 27px;
+    width: 69px;
+    border: 1px solid #00509A;
+}
+ /* Sign Up */
+ /*input box 193x39*/
+.center-block {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 50px;
+}
+.signup-input {
+    width: 175px;
+    height: 31px;
+    display: block;
+    margin-top: 10px;
+    padding-left: 10px;
+}
+.signup_form {
+    padding-left: 6px;
+    width: 75%;
+}
+.btn-signup {
+    height: 40px;
+    width: 120px;
+    display: block;
+    margin: 0 auto;
+    font-size: 18px;
+    font-weight: 700;
+    border: 1px solid #00509A;
+}
+
+/* Content */
+.content {
+    margin-left: 20px;
+    margin-right: 20px;
+    overflow: hidden;
+    padding-top: 146px;
+}
+.msg {
+    padding-top: 70px;
+    margin-left: 65px;
+}
+ .description {
+    color: #FFFFFF;
+    font: 700 40px/0.75 "Open Sans",Open Sans,sans-serif;
+    position: relative;
+    top: -5px;
+    text-shadow: 1px 1px 1px #332211;
+}
+.love-desc {
+    color: #FFFFFF;
+    display: block;
+    font-size: 46px;
+    font-weight: 700;
+    margin-left: -70px;
+    text-align: center;
+    text-shadow: 1px 1px 1px #332211;
+}
+
+
+/*button login 69x21
+button register 136x46*/
 
 
 

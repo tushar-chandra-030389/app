@@ -10,6 +10,7 @@ return array(
         'invokables' => array(
         	'Application\Controller\Index' => 'Application\Controller\IndexController',
         	'Application\Controller\Home' => 'Application\Controller\HomeController',
+            'Application\Controller\Logout'  => 'Application\Controller\LogoutController'
         ),
-    )    
+    ),
 );

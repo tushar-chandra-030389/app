@@ -18,6 +18,8 @@ return array(
             'profile/organiser/create'       =>    __DIR__ . '/../view/profile/organiser/create.phtml',
             'organiser/individual'   =>    __DIR__ . '/../view/profile/organiser/organiser-individual-form.phtml',
             'organiser/group'   =>    __DIR__ . '/../view/profile/organiser/organiser-group-form.phtml',
+            'profile/organiser-rest/get-list'  => __DIR__ . '/../view/profile/organiser/organiser-get-list.phtml',
+            'profile/player/football'  =>  __DIR__ . '/../view/profile/player/football-index.phtml',
         ),
         'template_path_stack' => array(
             __DIR__ . '/../view',

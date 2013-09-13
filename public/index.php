@@ -16,7 +16,7 @@
 	// Setup autoloading
 	include 'init_autoloader.php';
 	
-	//define('BASE_URL', 'http://localhost/agreemental/public/');
+	define('BASE_URL', 'http://sites.local/app/public/');
 	//define('BASE_URL', 'http://68.169.39.47/agreemental/public/');
 	//var_dump(class_exists('Zend\Mvc\Application'));exit;
 	// Run the application!

@@ -42,14 +42,12 @@ class IndexController extends AbstractActionController
 					} else if($authResult === MC::DB_ERROR) {
 						/* Auth DB Error */
 					} else if($authResult === MC::AUTHORIZATION_SUCCESS) {
-						/* Auth Success */
+						// Auth Success
 						if($authenticate->getSession('st') === '101') {
-							/* Add Company */
-							//$this->redirect()->toRoute('company_add');
-							echo "string";exit;
-						} else {							
-							/* Redirect to dashboard */
-							echo "Redirect to profile";exit;
+                            return $this->redirect()->toRoute('profile');
+						} elseif ($authenticate->getSession('st') === '100') {
+						//	Redirect to dashboard
+                            return $this->redirect()->toRoute('profile');
 						}
 					}
 				} else if($result === MC::INVALID_CREDENTIALS) {

@@ -24,7 +24,6 @@ class PlayerRestController extends AbstractRestFulController
 		if ($this->getServiceLocator()->get('request')->isPost()) 
 		{
 			$helperAddSports = $this->getServiceLocator()->get('Profile\Controller\Helpers\Player');
-
 			//var_dump($helperAddSports->validate());exit;
 			//var_dump($this->getServiceLocator()->get('request')->getPost());exit;
 			//$helperAddSports->validate();
@@ -42,7 +41,7 @@ class PlayerRestController extends AbstractRestFulController
 			} 
 			else 
 			{
-				echo "False";
+                var_dump($data);
 			}
 			exit;
 		}

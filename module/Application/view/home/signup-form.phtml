@@ -1,0 +1,88 @@
+<?php /*var_dump($this->viewData); */?>
+<?php
+	$formSignup = $this->formSignup;
+	$formSignup->prepare();
+
+	$formSignup->setAttribute("id","__signup_form");
+	$formSignup->setAttribute("autocomplete","on");
+	$formSignup->setAttribute("class","signup_form");
+?>
+
+<?php echo $this->form()->openTag($formSignup);  ?>
+<div class="row">
+    <div class="col-md-6">
+        <div class="form-group">
+            <?php
+                $element = $formSignup->get("fn");
+                $element->setAttribute("class", "form-control signup-input" );
+                $element->setAttribute("placeholder","First Name");
+
+                echo $this->formInput($element);
+            ?>
+        </div>
+        <div class="form-group">
+            <?php
+            	$element = $formSignup->get("em");
+            	$element->setAttribute("class", "form-control signup-input" );
+                $element->setAttribute("placeholder","Email");
+
+                echo $this->formInput($element);
+            ?>
+        </div>
+        <div class="form-group">
+            <?php
+                $element = $formSignup->get("pass");
+                $element->setAttribute("class", "form-control signup-input" );
+                $element->setAttribute("placeholder","Password");
+
+                echo $this->formInput($element);
+            ?>
+        </div>
+        <div class="form-group">
+            <?php
+                $element = $formSignup->get("sex");
+                $element->setAttribute("class", "form-control signup-input" );
+                echo $this->formSelect()->render($element);
+            ?>
+        </div>
+    </div>
+    <div class="col-md-6">
+        <div class="form-group">
+            <?php
+                $element = $formSignup->get("ln");
+                $element->setAttribute("class", "form-control signup-input" );
+                $element->setAttribute("placeholder","Last Name");
+
+                echo $this->formInput($element);
+            ?>
+        </div>
+        <div class="form-group">
+            <?php
+                $element = $formSignup->get('un');
+                $element->setAttribute("class", "form-control signup-input" );
+                $element->setAttribute("placeholder", "User Name");
+
+                echo $this->formInput($element);
+            ?>
+        </div>
+        <div class="form-group">
+            <?php
+                $element = $formSignup->get("repass");
+                $element->setAttribute("class", "form-control signup-input" );
+                $element->setAttribute("placeholder","Re-Enter Password");
+
+                echo $this->formInput($element);
+            ?>
+        </div>
+    </div>
+</div>
+<div class="center-block">
+    <?php
+        $element = $formSignup->get("signup");
+        $element->setAttribute("value","Register");
+        $element->setAttribute("class","btn btns btn-signup");
+        echo $this->formInput($element);
+    ?>
+</div>
+
+<?php echo $this->form()->closeTag();  ?>

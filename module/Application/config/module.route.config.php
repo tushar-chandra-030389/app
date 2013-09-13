@@ -65,6 +65,16 @@ return array(
                     ),
                 ),
             ),
+            'logout' => array(
+                'type' => 'Zend\Mvc\Router\Http\Literal',
+                'options' => array(
+                    'route' => '/logout',
+                    'defaults' => array(
+                        'controller' => 'Application\Controller\Logout',
+                        'action' => 'index',
+                    ),
+                ),
+            ),
         ),
     )
 );

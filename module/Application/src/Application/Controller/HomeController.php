@@ -5,6 +5,7 @@ namespace Application\Controller;
 use Zend\Mvc\Controller\AbstractActionController;
 use Zend\View\Model\ViewModel;
 use Zend\Session\Container AS SessionContainer;
+use Application\Controller\Helpers\MessageConstants AS MC;
 
 class HomeController extends AbstractActionController 
 {
@@ -16,13 +17,13 @@ class HomeController extends AbstractActionController
         $formSignup = $this->getServiceLocator()->get('Signup\Form\SignupForm'); // Get Form
         $formSignup->form->setAttribute('action',$this->url()->fromRoute('signup')); // Assign submit route to form
 
-		$view = new ViewModel();
+		$view = new ViewModel(array());
         $view->setTemplate('home/index');
             $viewSigninForm = new ViewModel(array('formSignin' => $formSignin->form));
-            $viewSigninForm->setTemplate('signin/index/signin-form');
+            $viewSigninForm->setTemplate('home/signin-form');
 
             $viewSignupForm = new ViewModel(array('formSignup' => $formSignup->form, 'viewData' =>$viewData));
-            $viewSignupForm->setTemplate('signup/index/signup-form');
+            $viewSignupForm->setTemplate('home/signup-form');
 
         $view->addChild($viewSignupForm, 'viewSignupForm');
 

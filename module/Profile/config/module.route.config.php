@@ -66,7 +66,7 @@ return array(
             'profile_rest' => array(
                 'type'    => 'segment',
                 'options' => array(
-                    'route'    => '/profile[/:sportId]',
+                    'route'    => '/profile-player-rest',
                     'constraints' => array(
                                 'sportId' => '[0-9]*]'
                             ),
@@ -78,7 +78,7 @@ return array(
             'organiser_rest' => array(
                 'type'    => 'segment',
                 'options' => array(
-                    'route'    => '/profile[/:organiserId]',
+                    'route'    => '/profile-organiser-rest',
                     'constraints' => array(
                                 'organiserId' => '[0-9]*]'
                             ),

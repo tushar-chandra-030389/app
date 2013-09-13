@@ -22,7 +22,7 @@ class IndexController extends AbstractActionController
         /*echo "<pre>";var_dump($this->getServiceLocator()->get('router'));*/
     	$authenticate = $this->getServiceLocator()->get('Authenticate');
 		if($authenticate->authenticate() === MC::AUTHENTICATION_FAILED) {
-			echo "Authentication failed redirect to signin";exit;
+            return $this->redirect()->toRoute('home');
 		} else {
             echo "There There";
         }

@@ -49,33 +49,4 @@ class Event extends MapperFunctions {
             $this->exchangeArray($data); }
     }
 
-    public function getArrayCopy($forSelectColumns = FALSE, $alias = NULL) {
-        $result = parent::getArrayCopy($forSelectColumns, $alias);
-        return $result;
-    }
-
-    public function getNotNullArrayCopy() {
-        $data = $this->getArrayCopy();
-        foreach ($data as $dKey => $dValue) {
-            if($dValue === NULL) {
-                unset($data[$dKey]);
-            }
-        }
-        return $data;
-    }
-
-    public function __set($name, $value) {
-        list($alias, $column) = explode('_', $name);
-        switch ($alias) {
-
-        }
-    }
-
-    public function __get($name) {
-        list($alias, $column) = explode('_', $name);
-        switch ($alias) {
-
-        }
-    }
-
 }

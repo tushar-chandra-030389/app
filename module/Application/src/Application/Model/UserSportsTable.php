@@ -23,7 +23,7 @@ class UserSportsTable{
     {
         $insert = $this->sql->insert($this->table);
         $insert->values($user->getNotNullArrayCopyForAuthentication());
-        echo $this->sql->getSqlStringForSqlObject($insert);exit;
+        //echo $this->sql->getSqlStringForSqlObject($insert);exit;
         try {
             return  $this->adapter->query($this->sql->getSqlStringForSqlObject($insert),Adapter::QUERY_MODE_EXECUTE);
         } catch(\Exception $e) {

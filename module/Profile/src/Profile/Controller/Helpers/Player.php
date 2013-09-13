@@ -94,8 +94,8 @@ class Player implements  ServiceLocatorAwareInterface{
 			$sportsMapper->status = "103";
 		}
 		$uid = $this->getServiceLocator()->get('Authenticate')->getSession('id');
-		/*var_dump($session);
-		exit;*/
+		var_dump($session);
+		exit;
 		/*var_dump($data);
 		var_dump($userSportsTable);exit;*/
 		$sportsMapper->uid = $uid;
@@ -125,5 +125,5 @@ class Player implements  ServiceLocatorAwareInterface{
 		$result = $SportsTable->addSport($sportsMapper);
 		return $result;
 		
-	}	
+	}
 }

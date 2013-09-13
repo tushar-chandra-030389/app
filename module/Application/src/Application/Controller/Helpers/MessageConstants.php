@@ -31,6 +31,7 @@ class MessageConstants {
 
 		const AUTHORIZATION_FAILED = 150;
 		const AUTHORIZATION_SUCCESS = 160;
+        const AUTHENTICATED = 170;
 	/* Authenticate End */
 
 	/* Roles Start */

@@ -1,22 +1,19 @@
 Football Form
 <br/>
 <?php
-//var_dump($this->sportsname);
-?>
-<?php
-$footballForm = $this->footballForm;
-$footballForm->prepare();
+$Form = $this->footballForm;
+$Form->prepare();
 
-$footballForm->setAttribute("id","__football_form");
-$footballForm->setAttribute("autocomplete","on");
-$footballForm->setAttribute("class","football_form");
+$Form->setAttribute("id","__football_form");
+$Form->setAttribute("autocomplete","on");
+$Form->setAttribute("class","football_form");
 ?>
 
-<?php echo $this->form()->openTag($footballForm);  ?>
+<?php echo $this->form()->openTag($Form);  ?>
 
 <label>Sports Name</label>
 <?php
-$element = $footballForm->get("sn");
+$element = $Form->get("sn");
 $element->setAttribute("placeholder","Sports Name");
 $element->setAttribute("value","Football");
 $element->setAttribute("disabled","disabled");
@@ -24,13 +21,13 @@ echo $this->formInput($element);
 ?>
 <br/>
 <?php
-$element = $footballForm->get("sportId");
+$element = $Form->get("sportId");
 $element->setAttribute('value', "1");
 echo $this->formInput($element);
  ?>
 <label>Stroger Foot</label>
 <?php
-$element = $footballForm->get("foot");
+$element = $Form->get("foot");
 $element->setAttribute("placeholder","Stronger Foot");
 
 echo $this->formInput($element);
@@ -38,7 +35,7 @@ echo $this->formInput($element);
 <br/>
 <label>Format Type</label>
 <?php
-$element = $footballForm->get("format");
+$element = $Form->get("format");
 $element->setAttribute("placeholder","Format");
 
 echo $this->formInput($element);
@@ -46,11 +43,16 @@ echo $this->formInput($element);
 <br/>
 <label>Position</label>
 <?php
-$element = $footballForm->get("ps1");
+$element = $Form->get("ps1");
 $element->setAttribute("placeholder","Position 1");
 
 echo $this->formInput($element);
 ?>
 <br/>
-<input type="submit"/>
+<?php
+$element = $Form->get("Create");
+$element->setAttribute("value","Create Football Profile");
+
+echo $this->formInput($element);
+?>
 <?php echo $this->form()->closeTag();  ?>

@@ -37,6 +37,10 @@ return array(
             $obj = new Profile\Form\OrganiserGroupForm();
             return $obj;
         },
+        'Profile\Controller\Helpers\Profile' =>  function($sm) {
+            $obj = new Profile\Controller\Helpers\Profile($sm);
+            return $obj;
+        },
         'Profile\Controller\Helpers\Player' =>  function($sm) {
             $obj = new Profile\Controller\Helpers\Player($sm);
             return $obj;

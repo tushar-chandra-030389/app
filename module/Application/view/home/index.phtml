@@ -1,41 +1,46 @@
-<header id="header">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-5">
-                <div class="lms-logo">
-                    <a href="/" class="lms-logo-link">
-                        LinkMySport
-                    </a>
-                </div>
-            </div>
-            <div class="col-md-7">
-                <div class="lms-login">
-                    <?php
-                        echo $this->viewSigninForm;
-                    ?>
-                </div>
-            </div>
-        </div>
-    </div>
-</header>
-
-<section>
-    <div class="middle-section">
+<div class="row">
+    <div id="header">
         <div class="container">
             <div class="row">
-                <div class="col-md-6">
-                    <div class="lms-msg text-center">
-                        Hello This is the Message.
+                <div class="col-md-4">
+                    <div class="lms-logo text-center">
+                        <a href="" class="lms-logo-link">
+                            LinkMySport
+                        </a>
                     </div>
                 </div>
-                <div class="col-md-6">
-                    <div class="lms-register text-center">
+                <div class="col-md-6  col-md-offset-2">
+                    <div class="lms-login text-center">
                         <?php
-                            echo $this->viewSignupForm;
+                        echo $this->viewSigninForm;
                         ?>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-</section>
+</div>
+<div class="content" id="main-wrapper">
+    <div class="row">
+        <div class="col-lg-7">
+            <div class="msg">
+                <span class="description">
+                "never give up on what you
+            </span>
+            <span class="love-desc">
+                LOVE"
+            </span>
+            </div>
+        </div>
+        <div class="col-lg-5">
+            <div class="row">
+                <?php
+                    echo $this->viewSignupForm;
+                ?>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="background-img">
+    <img src="./../public/img/bg/bg.png" alt=""/>
+</div>

@@ -49,4 +49,17 @@ class PlayerController extends AbstractActionController
         return $view;
 
     }
+    public function footballAction ()
+    {
+        $helperDetails = $this->getServiceLocator()->get('Profile\Controller\Helpers\Profile');
+        $profileDetails = $helperDetails->profileDetails($this->getServiceLocator()->get('Authenticate')->getSession('id'));
+
+        $footballProfile = $helperDetails->profileFootball($this->getServiceLocator()->get('Authenticate')->getSession('id'));
+        $view = new ViewModel(array("profileDetails" => json_encode($profileDetails),
+                                    "profileFootball" => json_encode($footballProfile)
+                                    ));
+        $view->setTemplate('profile/player/football');
+
+        return $view;
+    }
 }

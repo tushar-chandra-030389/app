@@ -74,6 +74,10 @@ class UserTable{
         return $this->getUser("usr.email = '".$email."'");
     }
 
+    public function getUserById($userId) {
+        return $this->getUser("usr.id = '".$userId."'");
+    }
+
     public function integrityCheck($email, $username) {
         return $this->getUser("usr.email = '".$email."' OR usr.username = '".$username."'");        
     }

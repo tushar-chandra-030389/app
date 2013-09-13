@@ -11,7 +11,6 @@ class OrganiserRestController extends AbstractRestFulController
 
 	public function getList()
 	{
-	    # code...
 	}
 
 	public function get($id)

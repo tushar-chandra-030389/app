@@ -19,6 +19,8 @@ return array(
             'error/index'             => __DIR__ . '/../view/error/index.phtml',
             'session/index'           => __DIR__ . '/../view/session/index.phtml',
             'home/index'              => __DIR__ . '/../view/home/index.phtml',
+            'home/signin-form'        => __DIR__ . '/../view/home/signin-form.phtml',
+            'home/signup-form'        => __DIR__ . '/../view/home/signup-form.phtml',
         ),
         'template_path_stack' => array(
             __DIR__ . '/../view',
